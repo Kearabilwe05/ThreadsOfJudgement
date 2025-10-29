@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "threadsofjudge",
+  "version": "1.0.0",
+  "devvitVersion": "0.12.1",
+  "main": "src/devvit/main.tsx",
+  "post": {
+    "dir": "dist/client",
+    "entrypoints": {
+      "default": {
+        "entry": "index.html"
+      }
+    }
+  },
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.cjs"
+  },
+  "media": {
+    "dir": "assets"
+  },
+  "realtime": true,
+  "redditAPI": true,
+  "redis": true,
+  "http": true
+}
