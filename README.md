@@ -597,7 +597,3 @@ Each scenario includes the original Reddit community's verdict (when available) 
 - **Type Definitions**: Comprehensive TypeScript interfaces in `types/game.ts` for GameRoom, GameSession, PlayerDecision, Scenario, PlayerStats, etc.
 - **Realtime Types**: Message type definitions in `types/realtime.ts` with 15+ message types for real-time communication
 - **API Contracts**: Request/response types in `types/api.ts` ensuring type safety across client-server boundary with ApiResponse wrapper
-
-## Cursor Integration
-
-This project includes pre-configured Cursor AI integration. [Download Cursor](https://www.cursor.com/downloads) and enable the `devvit-mcp` when prompted for enhanced development experience.
